@@ -1,24 +1,13 @@
-# README
+:writing_hand: # Desenvolvendo REST / RESTful APIs com Ruby on Rails. :wave:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# Tecnologias Utilizadas
+-	Ruby -v3.1.1
+-	Rails -v7.0.2.3
+-	Rvm -v1.29.12
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Autor :call_me_hand:
+* Adilson Paraguai S. Santos
+* https://www.linkedin.com/in/adilson-paraguai-b2a47111a/
