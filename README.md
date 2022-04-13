@@ -1,6 +1,4 @@
-# Projeto Sala de Reunião 💻
- 
-:writing_hand: Desenvolvendo REST / RESTful APIs com Ruby on Rails. :wave:
+:writing_hand: # Desenvolvendo REST / RESTful APIs com Ruby on Rails. :wave:
 
 
 # Tecnologias Utilizadas
