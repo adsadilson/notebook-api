@@ -50,6 +50,8 @@ group :development do
 
   # Gerando de dados faker
   gem "faker"
+  # Avoid repeating yourself, use pry-rails instead of copying the initializer to every rails project. This is a small gem which causes rails console to open pry. It therefore depends on pry.
+  gem "pry-rails"
 
 end
 
