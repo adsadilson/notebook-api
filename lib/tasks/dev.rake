@@ -2,6 +2,9 @@ namespace :dev do
   desc "Configuração do ambiente de desenvolvimento"
   task setup: :environment do
     
+    puts "Resetando o banco de dados..."
+    %x(rails db:drop db:create db:migrate)
+
     puts "Cadastrando os tipos de contato..."
     # %w atalho para não utilizar as aspar
       kinds = %w(Amigos Conhecido Comercial)
@@ -33,6 +36,15 @@ namespace :dev do
       end
     end
     puts "Telefones cadastrados com sucesso!"
+
+    puts "Cadastrando o endereço..."
+    Contact.all.each do |contact|
+		  Address.create!(
+			  street: Faker::Address.street_address, 
+			  city: Faker::Address.city,
+			  contact: contact)
+    end
+	  puts "Endereço cadastados com sucesso!"
 
   end
 
